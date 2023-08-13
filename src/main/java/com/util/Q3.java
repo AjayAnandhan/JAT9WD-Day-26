@@ -78,10 +78,10 @@ public class Q3 {
 		String str5 = driver.getTitle();
 		
 		if(str5.contains("Frames")) {
-			System.out.println("The top frame has a text 'Frames'");
+			System.out.println("The top frame has a tittle 'Frames'");
 		}
 		else {
-			System.out.println("The top frame doesn't have a text 'Frames'");
+			System.out.println("The top frame doesn't have a tittle 'Frames'");
 		}
 		
 		driver.quit();
